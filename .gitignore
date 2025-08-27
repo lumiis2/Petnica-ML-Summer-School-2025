@@ -1,0 +1,85 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+*.egg
+*.so
+dist/
+build/
+venv/
+.env
+
+# ----------------------
+# Jupyter / Colab
+# ----------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb~ 
+*.bak
+
+# ----------------------
+# Dados (não versionar dados crus ou pesados)
+# ----------------------
+*.csv
+*.tsv
+*.json
+*.xml
+*.yaml
+*.yml
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+*.joblib
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.weights
+
+# ----------------------
+# Experimentos e modelos
+# ----------------------
+logs/
+wandb/
+mlruns/
+tensorboard/
+checkpoints/
+runs/
+outputs/
+results/
+
+# ----------------------
+# Sistema / IDE
+# ----------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------
+# Permitir slides (não ignore apresentações)
+# ----------------------
+!*.pdf
+!*.pptx
+!*.ppt
+!*.key
+!*.odp
